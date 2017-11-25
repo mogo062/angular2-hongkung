@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-const DISH: Dish ={
+const DISH ={
           name: 'Uthappizza',
           image: '/assets/images/uthappizza.png',
           category: 'mains',
@@ -46,8 +46,8 @@ const DISH: Dish ={
   styleUrls: ['./dishdetail.component.scss']
 })
 export class DishdetailComponent implements OnInit {
-  dish: Dish = DISH;
-  
+  dish = DISH;
+
   constructor() { }
 
   ngOnInit() {
